@@ -246,7 +246,7 @@ th, td{
 	padding: 5px;
 }
 
-ul li{
+ul.description li{
 	list-style: "\1F44D";
 	 margin-left: 20px;
 	 padding-left: 10px;
