@@ -42,6 +42,18 @@ h1,h2,h3{
 	padding: 0 0 100px 0;
 }
 
+@keyframes moving {
+ 0% { color: blue; }
+ 50% { color: red; }
+ 100% { color: blue; }
+}
+
+#keyframes{
+	font-size: 2em;
+	font-weight: bold;
+	animation: moving 0.5s ease-in-out infinite;
+}
+
 #hell{
 	display: block;
 	position: relative;
