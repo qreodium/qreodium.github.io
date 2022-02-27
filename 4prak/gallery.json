@@ -1,0 +1,8 @@
+{
+	"gallery":"Emperors",
+	"images":[
+    	{"name":"Alexander I","file":"image1.jpg"},
+    	{"name":"Alexander II","file":"image2.jpg"},
+    	{"name":"Alexander III","file":"image3.jpg"}
+    	]
+}
