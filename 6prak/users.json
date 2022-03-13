@@ -1,0 +1,15 @@
+{
+    "users": [{
+        "id" : 1,
+        "login": "admin",
+        "password": "admin-top"
+    }, {
+        "id" : 2,
+        "login": "Sergey Brin",
+        "password": "12345678"
+    }, {
+        "id" : 3,
+        "login": "Larry Page",
+        "password": "87654321"
+    }]
+}

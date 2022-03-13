@@ -1,0 +1,8 @@
+{
+	"name": "6prak NodeJS server",
+	"version": "0.0.1",
+	"author": "Shilov V.Y.",
+	"scripts": {
+		"start": "node server.js"
+	}
+}

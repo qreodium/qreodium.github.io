@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab6: Главная</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {background-color: #ea6800;}
+		#block {text-align: center; width: 70%; margin-left: 15%;}
+		h1 {color: black; font-size: 3.5em}
+		p {color: #000000; font-size: 1.2em}
+		.pages {text-align: center; width: 15%; margin: 0 auto;}
+		.border {
+			list-style: none;
+			padding: 0;
+		}
+		.border li {
+			font-family: "Trebuchet MS", "Lucida Sans";
+			padding: 7px 20px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border-left: 10px solid #f05d22;
+			box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     					-2px -2px 5px 0 rgba(0,0,0,.1),
+    					2px 2px 5px 0 rgba(0,0,0,.1),
+    					-2px 2px 5px 0 rgba(0,0,0,.1);
+			font-size: 20px;
+			letter-spacing: 2px;
+			transition: 0.3s all linear;
+			background-color: white;
+		}
+		.border li:nth-child(2){border-color: #8bc63e;}
+		.border li:nth-child(3){border-color: #fcba30;}
+		.border li:nth-child(4){border-color: #1ccfc9;}
+		.border li:nth-child(5){border-color: #493224;}
+		.border li:hover {border-left: 10px solid transparent;}
+		.border li:nth-child(1):hover {border-right: 10px solid #f05d22;}
+		.border li:nth-child(2):hover {border-right: 10px solid #8bc63e;}
+		.border li:nth-child(3):hover {border-right: 10px solid #fcba30;}
+		.border li:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
+		.border li:nth-child(5):hover {border-right: 10px solid #493224;}
+	</style>
+</head>
+<body>
+<div id="block">
+	<h1>Node.js</h1>
+	<p>Node.js представляет среду выполнения кода на JavaScript, которая построена на основе движка JavaScript Chrome V8, который позволяет транслировать вызовы на языке JavaScript в машинный код. Node.js прежде всего предназначен для создания серверных приложений на языке JavaScript. Хотя также существуют проекты по написанию десктопных приложений (Electron) и даже по созданию кода для микроконтроллеров. Но прежде всего мы говорим о Node.js, как о платформе для создания веб-приложений.</p>
+</div>
+<div class="pages">
+	<ul class="border">
+		<li><a href="fdgvbbd">Выдача html-страницы</a></li>
+		<li><a href="json">Выдача JSON-файла</a></li>
+		<li><a href="image">Выдача изображения</a></li>
+		<li><a href="auth">Авторизация</a></li>
+		<li><a href="text">Текст</a></li>
+	</ul>
+</div>
+</body>
+</html>

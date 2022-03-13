@@ -38,22 +38,61 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 body {
-	background-color: #ea6800;
+	background-color: #ffebdb;
 }
-h1{
-	text-align: center;
+
+h1 {
 	font-size: 100px;
 	font-weight: bold;
-
+	text-align: center;
+	font-style: italic;
+	margin-top: 10%;
+	color: #57007f;
 }
 
-p, a{
+p.help{
+	text-align: right;
+	margin: 50px;
 	font-size: 50px;
-	display: block;
-	width: 350px;
-	border-radius: 5px;
-	background-color: #ffc190;
-	margin: 20px auto;
-	padding: 10px;
+	font-style: oblique;
+	color: gray;
+}
+
+p.main{
 	text-align: center;
+	padding: 0 25%;
+}
+
+button{
+	display: block;
+	margin: 10px auto;
+	padding: 20px;
+	background-color: orange;
+	border-radius: 10px;
+}
+
+ul{
+	text-align: center;
+	font-size: 30px;
+	padding: 40px;
+}
+li{
+	padding: 5px;
+}
+
+form{
+	margin: 0 auto;
+	width: 50%;
+}
+
+form>*{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	font-style: italic;
+}
+
+input {
+	padding: 10px;
+	font-size: 30px;
 }
